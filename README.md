@@ -82,14 +82,11 @@ Available in two variants on the same Mendeley page:
 ├── README.md                              # This file
 ├── requirements.txt                       # Python dependencies
 ├── .gitignore
-├── notebooks/
-│   ├── PlantVillage_Experiments.ipynb     # Main PlantVillage notebook (1%, 10%, 30%, 50% labels)
-│   │                                      # Also contains the SimCLR pretraining stage
-│   └── Taiwan_Experiments.ipynb           # Cross-dataset Taiwan experiments
-│                                          # Reuses the SimCLR checkpoint from above
-└── docs/
-    ├── SETUP.md                           # Detailed setup instructions
-    └── PROTOCOL_NOTES.md                  # Notes on the source-grouped splitting protocol
+├── PlantVillage_Experiments.ipynb     # Main PlantVillage notebook (1%, 10%, 30%, 50% labels)
+│── Taiwan_Experiments.ipynb           # Cross-dataset Taiwan experiments
+│                                      # Reuses the SimCLR checkpoint from above
+├── SETUP.md                           # Detailed setup instructions
+└── PROTOCOL_NOTES.md                  # Notes on the source-grouped splitting protocol
 ```
 
 The two notebooks are designed to be run in sequence:
@@ -327,20 +324,6 @@ This work builds on the following published methods:
 3. **ResNet** — He, K., Zhang, X., Ren, S., & Sun, J. (2016). Deep residual learning for image recognition. *CVPR 2016*.
 4. **TOM-SSL (compared baseline)** — Nishankar, S., Mithuran, T., Thuseethan, S., Sebastian, Y., Yeo, K. C., & Shanmugam, B. (2025). TOM-SSL: Tomato disease recognition using pseudo-labelling-based semi-supervised learning. *AgriEngineering*, 7, 248.
 5. **PlantVillage and Taiwan datasets** — Mendeley Data: https://data.mendeley.com/datasets/ngdgg79rzb/1
-
----
-
-## Contact
-
-**Author:** [Your Name]
-Department of [Your Department]
-Birla Institute of Technology, Mesra
-[your-email@example.com]
-
-**Supervisor:** [Advisor's Name]
-[Advisor's Email]
-
-For questions about the code or experiments, please open an issue on this repository or contact the author by email.
 
 ---
 
