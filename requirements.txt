@@ -1,0 +1,25 @@
+# Core dependencies for TOM-CSSL: Hybrid SSL + Semi-SSL for Tomato Disease Recognition
+# Tested with Google Colab (Python 3.10+, CUDA 11.8 / T4 GPU)
+# Versions are minimum required; later compatible versions also work.
+
+# Deep learning
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Numerical and scientific
+numpy>=1.24.0
+scikit-learn>=1.2.0
+
+# Image processing
+Pillow>=9.5.0
+
+# Visualisation
+matplotlib>=3.7.0
+
+# Progress bars
+tqdm>=4.65.0
+
+# Jupyter (for running the notebook locally; not needed on Colab)
+jupyter>=1.0.0
+notebook>=6.5.0
+ipykernel>=6.0.0
