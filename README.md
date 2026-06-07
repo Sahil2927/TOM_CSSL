@@ -329,21 +329,6 @@ This work builds on the following published methods:
 5. **PlantVillage and Taiwan datasets** — Mendeley Data: https://data.mendeley.com/datasets/ngdgg79rzb/1
 
 ---
-
-## Contact
-
-**Author:** [Your Name]
-Department of [Your Department]
-Birla Institute of Technology, Mesra
-[your-email@example.com]
-
-**Supervisor:** [Advisor's Name]
-[Advisor's Email]
-
-For questions about the code or experiments, please open an issue on this repository or contact the author by email.
-
----
-
 ## Acknowledgements
 
 We acknowledge the authors of the PlantVillage and Taiwan tomato leaf disease datasets for making their data publicly available, and the authors of SimCLR, MixMatch, and TOM-SSL for the methods we build upon and compare against.
