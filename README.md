@@ -82,11 +82,10 @@ Available in two variants on the same Mendeley page:
 ├── README.md                              # This file
 ├── requirements.txt                       # Python dependencies
 ├── .gitignore
-├── notebooks/
-│   ├── PlantVillage_Experiments.ipynb     # Main PlantVillage notebook (1%, 10%, 30%, 50% labels)
-│   │                                      # Also contains the SimCLR pretraining stage
-│   └── Taiwan_Experiments.ipynb           # Cross-dataset Taiwan experiments
-│                                          # Reuses the SimCLR checkpoint from above
+├── PlantVillage_Experiments.ipynb     # Main PlantVillage notebook (1%, 10%, 30%, 50% labels)
+│                                      # Also contains the SimCLR pretraining stage
+└── Taiwan_Experiments.ipynb           # Cross-dataset Taiwan experiments
+│                                      # Reuses the SimCLR checkpoint from above
 └── docs/
     ├── SETUP.md                           # Detailed setup instructions
     └── PROTOCOL_NOTES.md                  # Notes on the source-grouped splitting protocol
