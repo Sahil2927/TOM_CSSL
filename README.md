@@ -87,8 +87,9 @@ Available in two variants on the same Mendeley page:
 └── Taiwan_Experiments.ipynb           # Cross-dataset Taiwan experiments
 │                                      # Reuses the SimCLR checkpoint from above
 └── docs/
-    ├── SETUP.md                           # Detailed setup instructions
-    └── PROTOCOL_NOTES.md                  # Notes on the source-grouped splitting protocol
+|   ├── SETUP.md                           # Detailed setup instructions
+|   └── PROTOCOL_NOTES.md                  # Notes on the source-grouped splitting protocol
+└── Multi_seed_Verification_on_Plant_Village.ipynb
 ```
 
 The two notebooks are designed to be run in sequence:
